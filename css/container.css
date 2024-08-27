@@ -1,7 +1,7 @@
-.container {
+body {
   display: flex;
-  width: min(1500px, 100vw);
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   height: 100vh;
 }
 
@@ -9,6 +9,8 @@
 .leftContainer {
   position: relative;
   width: var(--img-container-width);
+  background-image: url("../asset/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
 }
 
 .textLogo {
@@ -28,7 +30,6 @@ img {
   display: block;
 }
 /* ... */
-
 
 /* || RIGHT CONTAINER */
 .rightContainer {
@@ -55,7 +56,7 @@ img {
   padding-left: 4%;
   padding-bottom: 3%;
   margin: 0;
-  width: max(300px,80%);
+  width: max(300px, 80%);
   font-weight: bold;
 }
 
